@@ -34,7 +34,7 @@
     {
       "version": "1.0.0",
       "released": "2026-11-09",
-      "minPulse": "1.0.60",
+      "minPulse": "1.0.59",
       "sdkPreview": 3,
       "manifestSha256": "45a9fbdcf63eef8608ffacf5459e5048c3e4e852ae84b6c186e924861de58462",
       "resources": [
