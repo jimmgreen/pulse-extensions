@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "id": "pulse.7zip",
+  "publisher": "86f9a10e981d16ac677eb11b9c45e82bf38a7e00c0d3d271e84ef9e0d7a4762b",
+  "name": {
+    "zh": "7-Zip 压缩与解压",
+    "en": "7-Zip",
+    "tw": "7-Zip 壓縮與解壓縮"
+  },
+  "summary": {
+    "zh": "右键一步解压和快速压缩，支持密码、分卷、校验值和 7z、zip、rar、tar.gz 等几十种格式。",
+    "en": "One-click extract and quick compress with passwords, volumes and checksums for 7z, zip, rar, tar.gz and dozens more.",
+    "tw": "右鍵一步解壓縮和快速壓縮，支援密碼、分割、校驗值和 7z、zip、rar、tar.gz 等數十種格式。"
+  },
+  "description": {
+    "zh": "在扩展设置里选好解压方式（智能解压、总是放进同名文件夹或直接解压）、解压位置和默认压缩格式后，右键“解压”“快速压缩”一步完成，不再弹窗。需要密码或分卷时用“添加到压缩包…”。加密压缩包会弹出密码框，本次输入过的密码会先自动尝试。还可以测试压缩包、计算 CRC32 / SHA-1 / SHA-256。所有写入都走 Pulse 的文件操作，可撤销。引擎为官方 7-Zip 26.00。",
+    "en": "Choose how to extract (smart, always into a folder, or straight in), where, and the default compression format in the extension settings; then Extract and Quick compress finish in one click with no dialog. Use Add to archive… for passwords or volumes. Encrypted archives ask for their password, and passwords entered this session are tried first. Also tests archives and computes CRC32 / SHA-1 / SHA-256. Every write goes through Pulse file operations and can be undone. Engine: official 7-Zip 26.00."
+  },
+  "category": "fileops",
+  "icon": {
+    "glyph": "archive",
+    "color": "#A16207"
+  },
+  "license": "LGPL-2.1-or-later (7-Zip) with unRAR restriction",
+  "homepage": "https://www.7-zip.org/",
+  "source": "https://github.com/jimmgreen/pulse/tree/main/extensions/7zip",
+  "tags": [
+    "7z",
+    "zip",
+    "rar",
+    "压缩"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "released": "2026-11-09",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "45a9fbdcf63eef8608ffacf5459e5048c3e4e852ae84b6c186e924861de58462",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.0/pulse.7zip-1.0.0.pulse-ext",
+        "size": 1069159,
+        "sha256": "584df97f51d0545fcbd0c64e1ed44f0b1f4308c8bfaa5cccfcac03a8b83be46d"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.0/pulse.7zip-1.0.0.sig.json",
+        "size": 936,
+        "sha256": "43814bb059e8d17223eb9583f183b0453a7fe8d0c279d58f12966a2970cc54f1"
+      },
+      "notes": {
+        "zh": "首个版本。",
+        "en": "First release.",
+        "tw": "首個版本。"
+      }
+    }
+  ]
+}
