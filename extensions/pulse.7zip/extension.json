@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.0.1",
+      "released": "2026-11-09",
+      "minPulse": "1.0.59",
+      "sdkPreview": 3,
+      "manifestSha256": "dc2c2e6e16b88490dc6a6562b6f5353f87967ecdebe8b9b0a678e0ce31a9e426",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.1/pulse.7zip-1.0.1.pulse-ext",
+        "size": 1088780,
+        "sha256": "7e372137775d157a89a1917a8297dc95be06fdaecdffa363174ec94f01a8d822"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.1/pulse.7zip-1.0.1.sig.json",
+        "size": 934,
+        "sha256": "a2f9862cd079ab625d14d0b465ba2a93a2fdb434cc2f30f85ece31e8f4351c96"
+      },
+      "notes": {
+        "zh": "重新设计添加到压缩包、输入密码、校验值对话框和扩展设置页；修复 tar.gz 在临时目录被拒时无法解压、取消密码框误报失败、设置后菜单顺序错乱。",
+        "en": "Redesigned the add-to-archive, password and checksum dialogs and the settings page; fixes tar.gz extraction when the temp folder is refused, a false failure when cancelling the password box, and menu order after a settings change.",
+        "tw": "重新設計加入壓縮檔、輸入密碼、校驗值對話框和擴充設定頁；修正 tar.gz 在暫存資料夾被拒時無法解壓縮、取消密碼框誤報失敗、設定後選單順序錯亂。"
+      }
+    },
+    {
       "version": "1.0.0",
       "released": "2026-11-09",
       "minPulse": "1.0.59",
