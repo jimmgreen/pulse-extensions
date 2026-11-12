@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.0.2",
+      "released": "2026-11-12",
+      "minPulse": "1.0.59",
+      "sdkPreview": 3,
+      "manifestSha256": "e07190fc12781c3db41c1454c4c5592e84eb55c5ce5820d0329b6577e37d484b",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.2/pulse.7zip-1.0.2.pulse-ext",
+        "size": 1213352,
+        "sha256": "4e4edd277ea5300def99f99f6173d166fc25cfa8820cf4320f68687898558855"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.2/pulse.7zip-1.0.2.sig.json",
+        "size": 936,
+        "sha256": "d626be4467bb62c347e636085f8a7999aa164e1d5ab9d5fc9809debe6e8eb9c0"
+      },
+      "notes": {
+        "zh": "将 7z.dll 移入受限 Job Object 独立工作进程（pulse_7zip_worker.exe）隔离运行，崩溃自动恢复且不影响 Pulse 主进程；新增解压与预览膨胀预算保护、右键菜单显示项与子菜单设置，以及任务步骤与结果操作提示。",
+        "en": "Runs 7z.dll out of process inside a restricted Job Object worker (pulse_7zip_worker.exe) with crash isolation, archive expansion budgets, context-menu placement and item toggles, and rich task progress/result actions.",
+        "tw": "將 7z.dll 移入受限 Job Object 獨立工作處理序（pulse_7zip_worker.exe）隔離執行，當機自動恢復且不影響 Pulse 主處理序；新增解壓縮與預覽膨脹預算保護、右鍵選單顯示項目與子選單設定，以及工作步驟與結果操作提示。"
+      }
+    },
+    {
       "version": "1.0.1",
       "released": "2026-11-09",
       "minPulse": "1.0.59",
