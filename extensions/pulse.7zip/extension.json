@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.0.4",
+      "released": "2026-11-13",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "2834f12cb1a9003f4f6823c2153d2f4c37ff3b3c3ac863505ff4d9d7750bef47",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.4/pulse.7zip-1.0.4.pulse-ext",
+        "size": 1769209,
+        "sha256": "c5b82e9e8099b6e402a1e3bafc2acd7ee1f92912b8759cd1bc28cb15616222ee"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.4/pulse.7zip-1.0.4.pulse-ext.sig.json",
+        "size": 936,
+        "sha256": "2afdf2361c4d3f4bb6a3986ff2b868b9c5c2afdff8f4c1e3f74e66d872509ab9"
+      },
+      "notes": {
+        "zh": "接管压缩包：打开后压缩包换上按格式区分的图标，资源管理器里双击直接智能解压或在 Pulse 里预览；只接管没有压缩软件打开的格式，已有默认程序可经 Windows 选择窗口改为 Pulse，关闭即恢复原关联。勾选框对勾更协调。设置区块和双击路由需要包含 3c3a66f 的 Pulse 主程序。",
+        "en": "Archive takeover: archives get an icon per format and a double-click in File Explorer smart-extracts them or previews them in Pulse. Only formats no archiver opens are taken; existing defaults can be switched through Windows' own chooser, and turning it off restores them. Lighter checkbox marks. The settings section and double-click routing need the Pulse host containing commit 3c3a66f.",
+        "tw": "接管壓縮檔：開啟後壓縮檔換上按格式區分的圖示，在檔案總管按兩下直接智慧解壓縮或在 Pulse 中預覽；只接管沒有壓縮軟體開啟的格式，既有預設程式可透過 Windows 選擇視窗改為 Pulse，關閉即還原原本的關聯。核取方塊勾號更協調。設定區塊和按兩下路由需要包含 3c3a66f 的 Pulse 主程式。"
+      }
+    },
+    {
       "version": "1.0.3",
       "released": "2026-11-13",
       "minPulse": "1.0.60",
