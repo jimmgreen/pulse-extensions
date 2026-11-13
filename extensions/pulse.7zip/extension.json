@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.0.3",
+      "released": "2026-11-13",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "c539910d2498816c7ca4354285a085f07fdce983b584062f164effa23bc219ae",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.3/pulse.7zip-1.0.3.pulse-ext",
+        "size": 1216213,
+        "sha256": "d21d0ca725ca3df7609f876eee52e73c20b9827a878d8840cd90099419f181d3"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.3/pulse.7zip-1.0.3.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "8dc98fb546b2938cbf93b921747b388bd0cb1f190866843bf79ffa43652164cc"
+      },
+      "notes": {
+        "zh": "新增无第三方默认关联压缩包的智能解压入口，保留已有默认程序。双击自动解压需配合包含 69a9aeb 修复的 Pulse 主程序；仅更新插件不会启用主程序接管。",
+        "en": "Adds smart extraction for archives without third-party default associations, preserving existing defaults. Automatic double-click extraction requires the Pulse host update containing commit 69a9aeb; plugin-only updates do not enable host routing.",
+        "tw": "新增無第三方預設關聯壓縮檔的智慧解壓縮入口，保留既有預設程式。雙擊自動解壓縮需搭配包含 69a9aeb 修正的 Pulse 主程式；僅更新外掛不會啟用主程式接管。"
+      }
+    },
+    {
       "version": "1.0.2",
       "released": "2026-11-12",
       "minPulse": "1.0.59",
