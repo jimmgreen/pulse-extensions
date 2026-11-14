@@ -30,7 +30,10 @@ CATALOG_TAG = 'catalog'
 LOCALES = ('zh', 'en', 'tw')
 CATEGORIES = ('fileops', 'preview', 'search', 'panel', 'tools')
 GLYPHS = ('archive', 'film', 'image', 'doc', 'find', 'ocr', 'git', 'rename', 'duplicate', 'compress', 'cloud', 'puzzle')
-RESOURCES = ('settings.own',)
+RESOURCES = ('context.read', 'files.readCurrentDirectory', 'operations.own', 'settings.own', 'audit.own',
+             'files.renameCurrentDirectory', 'files.readDirectory', 'files.watchDirectory', 'files.open',
+             'context.events', 'files.transferCurrentSelection', 'files.deleteCurrentSelection',
+             'files.transferToDirectory', 'files.transferFromDirectory', 'files.transferDirectoryTree')
 ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,30}(\.[a-z0-9][a-z0-9-]{0,30}){1,3}$')
 VERSION = re.compile(r'^(0|[1-9]\d{0,4})\.(0|[1-9]\d{0,4})\.(0|[1-9]\d{0,4})$')
 PULSE_VERSION = re.compile(r'^\d{1,3}\.\d{1,3}\.\d{1,4}$')
@@ -319,3 +322,4 @@ def main(argv=None):
 
 if __name__ == '__main__':
     sys.exit(main())
+

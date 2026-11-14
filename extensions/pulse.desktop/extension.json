@@ -1,0 +1,57 @@
+{
+  "formatVersion": 1,
+  "id": "pulse.desktop",
+  "publisher": "86f9a10e981d16ac677eb11b9c45e82bf38a7e00c0d3d271e84ef9e0d7a4762b",
+  "name": {
+    "zh": "桌面增强包",
+    "en": "Desktop Pack",
+    "tw": "桌面增強包"
+  },
+  "summary": {
+    "zh": "桌面分组、文件磁贴与 AI 收纳的公开测试版。",
+    "en": "Public test of desktop groups, file tiles and AI organization."
+  },
+  "description": {
+    "zh": "将桌面文件分组并以磁贴展示，提供 AI 收纳、桌面体检与外观设置。公开测试版，建议先在非关键桌面测试。Pulse 1.0.60 支持基础桌面功能；工作台、托盘、搜索与 Shell 菜单增强依赖更新的主程序，旧版会降级。",
+    "en": "Groups desktop files and displays tiles, with AI organization, health checks and appearance settings. Public test. Pulse 1.0.60 supports core desktop features; workbench, tray, search and Shell-menu enhancements require a newer host and degrade on older hosts."
+  },
+  "category": "tools",
+  "icon": {
+    "glyph": "puzzle",
+    "color": "#2563EB"
+  },
+  "license": "MIT",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "released": "2026-11-14",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "84dea1444525e0bf15c333fc401b498084a6e15a35dc7cc4841fa84926f20e48",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.0/pulse.desktop-1.0.0.pulse-ext",
+        "size": 790654,
+        "sha256": "f148df17a9cc51092bc79aef9382191eb5b0d5d38f7df575da3d832b55ea8892"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.0/pulse.desktop-1.0.0.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "66be46191c636eff09f9b537f42c4d8601b5c53f7c8730d613390be9ee3f5d5d"
+      },
+      "notes": {
+        "zh": "首个公开测试版：桌面分组、文件磁贴、AI收纳及桌面外观设置。",
+        "en": "First public test: desktop groups, file tiles, AI organization and desktop appearance settings."
+      }
+    }
+  ]
+}
