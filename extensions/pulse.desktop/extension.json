@@ -21,8 +21,39 @@
     "color": "#2563EB"
   },
   "license": "MIT",
-  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.0",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.15",
   "versions": [
+    {
+      "version": "1.0.15",
+      "released": "2026-11-15",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "5baf565e20bff9007f3ebf8dfeb728d520fb163088936ea570cb60faf5bf276f",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.15/pulse.desktop-1.0.15.pulse-ext",
+        "size": 2106391,
+        "sha256": "7968999647e44acc84429f9f8a80c3fc1f3c802ca49aad63e89740eaa3183a62"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.15/pulse.desktop-1.0.15.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "6cb746cfc7ad72be621a89f0deeb1fe9dba2ab6a0e7efd08a8918925ab66b7d1"
+      },
+      "notes": {
+        "zh": "新增文件夹直连映射分组与分组卡片多页翻页（底部圆点与滚轮切换、末页定高）；完善天气/便笺/时钟/照片/应用/暂存区/回收站/磁盘/待办/日历桌面小组件及差异化右键菜单；接入 Pulse 原生 EditHost + LumaText 输入与 Fluent 编辑菜单（修复光标闪烁与中文输入法定位）；优化 Mica/亚克力圆角与雪花噪点质感、主界面标签联动及内存占用。",
+        "en": "Added folder-mapped group cards and multi-page group pagination (footer dots and wheel switching with constant card height); completed desktop widgets (weather, notes, clock, photos, apps, stash, recycle bin, drive, todo, calendar) with tailored context menus; wired Pulse native EditHost + LumaText input and Fluent edit menus for blinking caret and CJK IME positioning; refined Mica/Acrylic corners, noise grain, tab sync, and memory usage.",
+        "tw": "新增資料夾直連映射分組與分組卡片多頁翻頁（底部圓點與滾輪切換、末頁定高）；完善天氣/便箋/時鐘/照片/應用/暫存區/資源回收筒/磁碟/待辦/行事曆桌面小工具及差異化右鍵選單；接入 Pulse 原生 EditHost + LumaText 輸入與 Fluent 編輯選單（修正游標閃爍與中文輸入法定位）；最佳化 Mica/壓克力圓角與雪花噪點質感、主介面分頁聯動及記憶體佔用。"
+      }
+    },
     {
       "version": "1.0.0",
       "released": "2026-11-14",
