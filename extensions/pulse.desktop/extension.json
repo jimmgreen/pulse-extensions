@@ -21,8 +21,39 @@
     "color": "#2563EB"
   },
   "license": "MIT",
-  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.19",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.20",
   "versions": [
+    {
+      "version": "1.0.20",
+      "released": "2026-11-16",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "9e3f7e76fa88f29f4a9d57e94129947b69d069aacf8d26b0b1c80d67738183fa",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.20/pulse.desktop-1.0.20.pulse-ext",
+        "size": 2172909,
+        "sha256": "769fc767deb5ae6918556cdd162111e1f3d7ef6cd7fa58db7061744dcc143537"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.20/pulse.desktop-1.0.20.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "f3bef45a384ba7aaece33e17dd30711e48e2a2b736745f312aab268212205204"
+      },
+      "notes": {
+        "zh": "修复 Windows 10 下桌面整理无法开启、严重卡顿及原生桌面图标不隐藏的问题：支持已绑定线程下的次级 DirectComposition 建层与 SwapChain 回退，禁用 Win10 不支持的全屏 HostBackdropBrush 并改用预烘焙模糊壁纸亚克力，优化悬停局部脏区裁剪减少整屏重绘，完善 Win10 桌面图标显隐接管与字体回退。",
+        "en": "Fixed Windows 10 Desktop Organizer failing to enable, lagging, and not hiding native desktop icons: added composition-only DirectComposition fallback and SwapChain fallback, disabled unsupported Win10 full-screen HostBackdropBrush in favor of pre-baked blurred wallpaper Acrylic, added per-dirty-rect clip culling and targeted hover invalidation, and improved Win10 desktop icon hiding and font fallback.",
+        "tw": "修復 Windows 10 下桌面整理無法開啟、嚴重卡頓及原生桌面圖示不隱藏的問題：支援已綁定執行緒下的次級 DirectComposition 建層與 SwapChain 回退，停用 Win10 不支援的全螢幕 HostBackdropBrush 並改用預烘焙模糊桌布壓克力，最佳化懸停局部髒區裁剪以減少整螢幕重繪，完善 Win10 桌面圖示顯隱接管與字型回退。"
+      }
+    },
     {
       "version": "1.0.19",
       "released": "2026-11-16",
