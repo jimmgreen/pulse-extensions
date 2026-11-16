@@ -21,8 +21,70 @@
     "color": "#2563EB"
   },
   "license": "MIT",
-  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.15",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.17",
   "versions": [
+    {
+      "version": "1.0.17",
+      "released": "2026-11-16",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "1f81a87f5fe5de8b2a1c47d2b32e3f792fe6129478873693bd462071236a9373",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.17/pulse.desktop-1.0.17.pulse-ext",
+        "size": 2166757,
+        "sha256": "681656bcc771e26aadb3d0ca6997450e7dff1c931101d5f72e425b7ddb63e442"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.17/pulse.desktop-1.0.17.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "5f39a9243e8e6059cfc964a1db33561d1178cf554f1df9502a8b32bae2e33c11"
+      },
+      "notes": {
+        "zh": "修复升级安装或退出 Pulse 时从桌面磁贴启动的外部应用（如 QQ）被连带终止的问题；解锁磁贴全桌面自由拖动摆放、边缘磁性吸附与底边/右边/右下角任意宽高自由缩放（含实时双向缩放光标与尺寸提示），分组卡片与散落图标改为按实际磁贴位置智能避让；优化照片磁贴居中裁剪及下载/最近使用/固定文件夹/日历/天气随高度动态扩容。",
+        "en": "Fixed external apps launched from desktop tiles (such as QQ) being terminated when upgrading or exiting Pulse; unlocked full-desktop free tile placement with magnetic edge snapping and arbitrary width/height resizing from edges/corner (with live cursors and pixel size pills) plus per-tile group and loose-icon avoidance; improved aspect-fill cropping on Photos and height-adaptive rows in Downloads, Recent, Pinned Folder, Calendar, and Weather.",
+        "tw": "修復升級安裝或結束 Pulse 時從桌面磁貼啟動的外部應用（如 QQ）被連帶終止的問題；解鎖磁貼全桌面自由拖動擺放、邊緣磁性吸附與底邊/右邊/右下角任意寬高自由縮放（含即時雙向縮放游標與尺寸提示），分組卡片與散落圖示改為按實際磁貼位置智慧避讓；最佳化相片磁貼置中裁切及下載/最近使用/固定資料夾/行事曆/天氣隨高度動態擴容。"
+      }
+    },
+    {
+      "version": "1.0.16",
+      "released": "2026-11-16",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "e2a3e4da81aafdbb41f48354782934a70dc4b8d193e96cea0ebd6385adb1455a",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.16/pulse.desktop-1.0.16.pulse-ext",
+        "size": 1294819,
+        "sha256": "d59e6f401d659589547ed67e7b78a170936a01efe0891c523c4201f8b5a84125"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.16/pulse.desktop-1.0.16.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "4c67a67532e0ac92cfb9d835b3752bb85684b6b27372472ad5db87039b432f35"
+      },
+      "notes": {
+        "zh": "小组件全面打磨：天气、日历、系统、时钟、磁盘点击打开详情卡片（逐小时曲线与未来 6 天、农历与节日月历、实时仪表、世界时钟、分区用量）；小组件开放更多尺寸（2×1、4×1 速览条，4×4 待办等）；照片支持自选文件夹、轮播间隔与随机顺序；叠放可点圆点和箭头切换，拖到组件上即可叠放；卡片按压回弹、应用图标单独按压反馈，启动应用不再卡住桌面；全新绘制的小组件图标；所有弹窗按钮统一为 Pulse 原生样式；便笺六种颜色；修复菜单与小组件库圆角、滚轮在磁贴上失效等问题。",
+        "en": "Widget polish: weather, calendar, system, clock and drive open detail cards (hourly curve, 6-day outlook, lunar month view, live meters, world clock, drive usage); more widget sizes including 2x1/4x1 glance strips; photos take your own folder, interval and shuffle; stacks switch by dots and arrows, and dropping a widget on another stacks it; press feedback on cards and app icons, and app launches no longer stall the desktop; new widget icons; Pulse-style buttons in every popup; six note colours; corner and mouse-wheel fixes.",
+        "tw": "小工具全面打磨：天氣、行事曆、系統、時鐘、磁碟點擊開啟詳情卡片（逐小時曲線與未來 6 天、農曆與節日月曆、即時儀表、世界時鐘、分割區用量）；小工具開放更多尺寸（2×1、4×1 速覽條，4×4 待辦等）；照片支援自選資料夾、輪播間隔與隨機順序；疊放可點圓點和箭頭切換，拖到小工具上即可疊放；卡片按壓回彈、應用程式圖示單獨按壓回饋，啟動應用程式不再卡住桌面；全新繪製的小工具圖示；所有彈出視窗按鈕統一為 Pulse 原生樣式；便箋六種顏色；修正選單與小工具庫圓角、滾輪在磁貼上失效等問題。"
+      }
+    },
     {
       "version": "1.0.15",
       "released": "2026-11-15",
