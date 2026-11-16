@@ -21,8 +21,39 @@
     "color": "#2563EB"
   },
   "license": "MIT",
-  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.17",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.18",
   "versions": [
+    {
+      "version": "1.0.18",
+      "released": "2026-11-16",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "507b4f08ff9c373107a858a93d802fdfea678e5e3da111a0f5537bee4cbf97b9",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.18/pulse.desktop-1.0.18.pulse-ext",
+        "size": 2167921,
+        "sha256": "09e547f24638d2f13241a2fe45d3a4629533bd8ac915237dd4cdbf64d2929b25"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.18/pulse.desktop-1.0.18.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "5b5099164d77ff4c6ae101c32d5630896add7c9475ead499cd8f2d5d81df3e54"
+      },
+      "notes": {
+        "zh": "修复桌面右键菜单中「桌面整理设置」点击无反应的问题，支持直接激活并打开 Pulse 的扩展/桌面整理设置页；将桌面整理默认外观调整为「亚克力」窗口效果与「60%」不透明度。",
+        "en": "Fixed the Desktop Organizer Settings entry in the desktop context menu doing nothing by routing it directly to Pulse's extension settings page and granting foreground activation; updated the default Desktop Organizer appearance to Acrylic with 60% opacity.",
+        "tw": "修復桌面右鍵選單中「桌面整理設定」點擊無反應的問題，支援直接啟用並開啟 Pulse 的擴充功能/桌面整理設定頁；將桌面整理預設外觀調整為「壓克力」視窗效果與「60%」不透明度。"
+      }
+    },
     {
       "version": "1.0.17",
       "released": "2026-11-16",
