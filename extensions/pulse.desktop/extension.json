@@ -21,8 +21,39 @@
     "color": "#2563EB"
   },
   "license": "MIT",
-  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.18",
+  "source": "https://github.com/jimmgreen/pulse-extensions/releases/tag/pulse.desktop-1.0.19",
   "versions": [
+    {
+      "version": "1.0.19",
+      "released": "2026-11-16",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "0363428fd8591dd0b33ba40fd42f1e6bbbe459636c1ff6f9d918f6ac648319c5",
+      "resources": [
+        "settings.own",
+        "files.readDirectory",
+        "files.watchDirectory",
+        "files.open",
+        "operations.own",
+        "files.transferToDirectory",
+        "files.transferFromDirectory"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.19/pulse.desktop-1.0.19.pulse-ext",
+        "size": 2168528,
+        "sha256": "c00fcc704683642c0a7f286bd977f631f73f0f6f950d04903f16335b76adeff0"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.desktop-1.0.19/pulse.desktop-1.0.19.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "ab2e47adb1343b54722872f02e656e8e8d582be96f740a8bd877b9c921b66e91"
+      },
+      "notes": {
+        "zh": "优化桌面原生图标视图接管与恢复机制（按确切 ListView 句柄异步隐藏与恢复，避免改动系统「显示桌面图标」开关，并在崩溃/禁用/退出时自动恢复）；修复隐藏磁贴标题栏后的点击命中与布局高度计算，减少悬停重绘区域。",
+        "en": "Improved native desktop icon view takeover and recovery (asynchronously hiding and restoring the exact owned SysListView32 handle without altering Explorer's Show Desktop Icons toggle); fixed hidden tile title hit-testing and spacing, and reduced hover invalidation area.",
+        "tw": "最佳化桌面原生圖示檢視接管與復原機制（依確切 ListView 控制代碼非同步隱藏與復原，避免更動系統「顯示桌面圖示」開關，並在當機/停用/結束時自動復原）；修復隱藏磚塊標題列後的點擊命中與版面高度計算，減少懸停重繪區域。"
+      }
+    },
     {
       "version": "1.0.18",
       "released": "2026-11-16",
