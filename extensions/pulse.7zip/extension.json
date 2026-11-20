@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.0.5",
+      "released": "2026-11-19",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "681f1bcff71df382d237d331434750774ac2971d7621a03d1de3f3bdfb448348",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.5/pulse.7zip-1.0.5.pulse-ext",
+        "size": 1941828,
+        "sha256": "dc348990a8cc37597e733d796152b3b104df28c8c82590f7cbbe1383a2c1fdb0"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.0.5/pulse.7zip-1.0.5.pulse-ext.sig.json",
+        "size": 930,
+        "sha256": "2ecd93e91a885e860e5467663081486e65efadec25f1be5e626b7d3840cb51a5"
+      },
+      "notes": {
+        "zh": "修复盘符根目录压缩、解压和自动解压的目标路径；修复根目录多选压缩包命名；统一分卷、封装格式及长路径父目录处理。保留临时目录与提交失败的底层错误详情，不再提前显示未确认的清理完成提示。",
+        "en": "Fix destination paths for archive creation, extraction and auto-extraction at drive roots, root multi-selection archive names, and parent handling for volumes, wrapped formats and long paths. Preserve staging/commit diagnostics and stop claiming cleanup completion before it is confirmed.",
+        "tw": "修正磁碟機根目錄壓縮、解壓縮及自動解壓縮的目標路徑與多選壓縮檔命名；統一分割檔、封裝格式及長路徑的父目錄處理。保留暫存目錄與提交失敗的底層錯誤資訊，不再提前顯示尚未確認的清理完成提示。"
+      }
+    },
+    {
       "version": "1.0.4",
       "released": "2026-11-13",
       "minPulse": "1.0.60",
