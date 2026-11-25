@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.1.0",
+      "released": "2026-11-24",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "947029863237d6778993c8202bd55050aa73c212084cab1b7a121898464dfc47",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.1.0/pulse.7zip-1.1.0.pulse-ext",
+        "size": 2238989,
+        "sha256": "db92281134c7bcf21b052065e7426724b30a0de516f977bf6eeacc3812f8a96f"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.1.0/pulse.7zip-1.1.0.pulse-ext.sig.json",
+        "size": 936,
+        "sha256": "0e55c115e1eb252352c8e32f4e8b13034120846c96d8fa422fb6c40bff1ad24a"
+      },
+      "notes": {
+        "zh": "压缩包图标新增「拉链文件夹」「彩色文件」两套样式，可在设置的「压缩包图标」里选择；三套图标换成不与文件夹、Word、Excel、PowerPoint、PDF 撞色的配色。「接管压缩包」移到常用设置页，按格式勾选。格式标签按比例缩放和「支持格式」页需要下一版 Pulse。",
+        "en": "Two new archive icon styles, Zipper folder and Colour page, selectable under Archive icons; all three sets use a palette that no longer clashes with folders or Word, Excel, PowerPoint and PDF icons. Archive takeover moves to the General page with per-format tiles. Scaled format labels and the Formats page need the next Pulse release.",
+        "tw": "壓縮檔圖示新增「拉鍊資料夾」「彩色檔案」兩套樣式，可在設定的「壓縮檔圖示」中選擇；三套圖示改用不與資料夾、Word、Excel、PowerPoint、PDF 撞色的配色。「接管壓縮檔」移到常用設定頁，依格式勾選。格式標籤依比例縮放與「支援格式」頁需要下一版 Pulse。"
+      }
+    },
+    {
       "version": "1.0.5",
       "released": "2026-11-19",
       "minPulse": "1.0.60",
