@@ -32,6 +32,31 @@
   ],
   "versions": [
     {
+      "version": "1.1.1",
+      "released": "2026-11-27",
+      "minPulse": "1.0.60",
+      "sdkPreview": 3,
+      "manifestSha256": "011d66c12780eb915dd49d21b3466172aa75abef6b5582fee6acabdf56b1a75f",
+      "resources": [
+        "settings.own"
+      ],
+      "package": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.1.1/pulse.7zip-1.1.1.pulse-ext",
+        "size": 2067146,
+        "sha256": "13a30fe832a7ff1b895c435f43d0309c67c11927bc2a339f31dd8419b7c34123"
+      },
+      "signature": {
+        "url": "https://github.com/jimmgreen/pulse-extensions/releases/download/pulse.7zip-1.1.1/pulse.7zip-1.1.1.pulse-ext.sig.json",
+        "size": 936,
+        "sha256": "7595cf282794f2bcbc7d6950dbc378ffe0308f531332a05a1933b885223f646e"
+      },
+      "notes": {
+        "zh": "新增线程局部工作进程路径隔离（ScopedWorkerExecutable），支持宿主按需绑定独立的 pulse_7zip_worker.exe 实例，不复用也不干扰共享热进程池与格式缓存；补充隔离作用域回归测试。",
+        "en": "Adds thread-local worker executable scoping (ScopedWorkerExecutable) so callers can bind an explicit pulse_7zip_worker.exe instance without touching the shared warm preview worker pool or format cache, with regression coverage.",
+        "tw": "新增執行緒區域工作行程路徑隔離（ScopedWorkerExecutable），支援宿主依需求繫結獨立的 pulse_7zip_worker.exe 執行個體，不複用亦不干擾共用熱行程集區與格式快取；補充隔離作用域回歸測試。"
+      }
+    },
+    {
       "version": "1.1.0",
       "released": "2026-11-24",
       "minPulse": "1.0.60",
